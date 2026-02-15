@@ -1,0 +1,13 @@
+project: AI Agent Platform
+day: 18
+phase: Week 3 – Observability
+objective: Add evaluation agent that scores draft clarity
+workflow: content_pipeline
+state_namespaces:
+  - meta
+  - content
+  - metrics
+architecture_invariants:
+  - Agents follow BaseAgent interface
+  - Prompts are versioned files
+  - All LLM calls go through llm.py
