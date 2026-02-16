@@ -1,19 +1,28 @@
 # Project Architecture
 - ai-agent-platform
     - docs
+        - agent_contract.md
         - architecture.md
         - daily_alignment_prompt_template.yaml
         - project_log.md
         - README.md
     - prompts
+        - content
+        - dev
     - README.md
     - requirements.txt
     - src
         - agents
         - core
+            - agent.py
+            - config.py
+            - engine.py
+            - evals
+            - llm.py
+            - logging.py
+            - memory
+            - prompts
+            - registry.py
+            - tools
+            - types.py
         - workflows
-    - venv
-        - bin
-        - include
-        - lib
-        - pyvenv.cfg
