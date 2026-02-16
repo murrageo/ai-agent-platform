@@ -38,8 +38,8 @@ Completed
 - API Key Hidden 
 - Venv created & tools installed
 - System architecture .md created in docs
+- Defined core types contract
 
 Open Issues:
 - Unclear process for daily alignment and weekly reset prompts
-- Desktop directory and git repo are out of sync
-- Make sure everything is tidied up
+- READMEs in root and docs are out-of-date

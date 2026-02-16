@@ -26,3 +26,4 @@
             - tools
             - types.py
         - workflows
+    - .gitignore
