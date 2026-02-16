@@ -1,0 +1,24 @@
+project: AI Agent Platform
+day: 02
+phase: Week 1 – Engine Foundations
+objective: Define Core Types
+  - Define 
+    - State (BaseModel)
+    - Task
+    - Artifact
+    - Event
+  - Minimal version:
+    - State.meta
+    - State.content
+    - State.dev
+    - State.metrics
+  "Even if empty dicts. The key lesson: State is the contract. Everythig touches state."
+workflow: NA
+state_namespaces:
+  - meta
+  - content
+  - metrics
+architecture_invariants:
+  - Agents follow BaseAgent interface
+  - Prompts are versioned files
+  - All LLM calls go through llm.py
