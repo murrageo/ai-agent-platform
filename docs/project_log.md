@@ -26,9 +26,20 @@ Completed:
 - Core folders created
 
 Open Issues:
-- Unsure how to structure State schema
+- Need to install venv with tools
+- Need to make weekly_reset.md template
+
 
 ---
 
 ### Day 2
-. . . 
+Completed
+- API Key Acquired
+- API Key Hidden 
+- Venv created & tools installed
+- System architecture .md created in docs
+
+Open Issues:
+- Unclear process for daily alignment and weekly reset prompts
+- Desktop directory and git repo are out of sync
+- Make sure everything is tidied up
