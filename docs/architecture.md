@@ -1,0 +1,19 @@
+# Project Architecture
+- ai-agent-platform
+    - docs
+        - architecture.md
+        - daily_alignment_prompt_template.yaml
+        - project_log.md
+        - README.md
+    - prompts
+    - README.md
+    - requirements.txt
+    - src
+        - agents
+        - core
+        - workflows
+    - venv
+        - bin
+        - include
+        - lib
+        - pyvenv.cfg
